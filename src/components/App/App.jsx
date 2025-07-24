@@ -5,8 +5,8 @@ import {
 } from "react-router-dom";
 
 import HomePage from '../HomePage/HomePage';
-
 import Header from '../Header/Header';
+import Services from "../Services/Services";
 
 function App() {
 
@@ -20,9 +20,13 @@ function App() {
           <Route
             exact path="/"
             element={
-
               <HomePage />
-
+            }
+          />
+          <Route
+            exact path="/services"
+            element={
+              <Services />
             }
           />
           <Route

@@ -1,5 +1,6 @@
 
 function HomePage() {
+  
   const handleEmail = () => {
     const recipient = "gggtrunnell@gmail.com";
     const subject = encodeURIComponent("Come make me food!");
@@ -9,7 +10,6 @@ function HomePage() {
   const handleCall = () => {
     window.location.href = `tel:+15558675309`
   }
-
 
   return (
     <div>
