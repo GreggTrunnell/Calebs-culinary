@@ -136,3 +136,10 @@ color: rgb(115, 204, 100);
 .font-size-25{
   font-size: 25px
 }
+
+/* added this class to customize buttons. */
+.btn-custom {
+  background-color: #ff5733 !important;
+  border-color: #ff5733 !important;
+  color: white !important;
+}
