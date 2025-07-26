@@ -26,7 +26,8 @@ function HomePage() {
       }}
     >
       <img
-        src="public/images/Screenshot 2025-07-26 at 12.24.44 AM.png"
+        src="public/images/cartoon-chef-image.png"
+        alt="Cartoon of a mustached chef smiling"
         style={{ width: "325px", height: "300px" }}
       />
       <button className="btn btn-custom" onClick={handleEmail}>Email</button>
