@@ -26,7 +26,7 @@ function HomePage() {
       }}
     >
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC7rogHIvYpsGtMloHSQBjqSrV0OOuWfAVkQ&s"
+        src="public/images/Screenshot 2025-07-26 at 12.24.44 AM.png"
         style={{ width: "325px", height: "300px" }}
       />
       <button className="btn btn-custom" onClick={handleEmail}>Email</button>
