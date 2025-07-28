@@ -5,15 +5,15 @@ import {
 } from "react-router-dom";
 
 import HomePage from '../HomePage/HomePage';
-import Header from '../Header/Header';
 import Services from "../Services/Services";
 import Nav from '../Nav/Nav';
+import ContactInfo from "../ContactInfo/ContactInfo";
 
 
 function App() {
 
   return (
-    <>
+    <div>
       <header>
         <h1 className="green-text">Leb's Kitchen</h1>
         <Nav />
@@ -39,8 +39,9 @@ function App() {
               <>
                 <h2>About Me</h2>
                 <p>
-                  I love cooking! I hope you like the food too!                
+                  I love cooking! I hope you like the eating my food!
                 </p>
+                <ContactInfo />
               </>
             }
           />
@@ -55,7 +56,7 @@ function App() {
       <footer>
         <p>Copyright © {new Date().getFullYear()}</p>
       </footer>
-    </>
+    </div>
   );
 }
 
