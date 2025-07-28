@@ -26,9 +26,9 @@ function HomePage() {
       }}
     >
       <img
-        src="public/images/cartoon-chef-image.png"
+        src="public/images/chef-photo.png"
         alt="Cartoon of a mustached chef smiling"
-        style={{ width: "325px", height: "300px" }}
+        style={{ width: "500px", height: "450px" }}
       />
       <button className="btn btn-custom" onClick={handleEmail}>Email</button>
       <button className="btn btn-custom" onClick={handleCall}>Call Me</button>
