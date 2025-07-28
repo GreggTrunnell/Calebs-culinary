@@ -7,13 +7,16 @@ import {
 import HomePage from '../HomePage/HomePage';
 import Header from '../Header/Header';
 import Services from "../Services/Services";
+import Nav from '../Nav/Nav';
+
 
 function App() {
 
   return (
     <>
       <header>
-        <Header />
+        <h1 className="green-text">Leb's Kitchen</h1>
+        <Nav />
       </header>
       <main>
         <Routes>
