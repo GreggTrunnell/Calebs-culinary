@@ -90,7 +90,7 @@ return (
             aria-labelledby={`heading${id}`}
             data-bs-parent="#accordionExample"
           >
-            <div className="accordion-body">
+            <div className="accordion-body tennis-green">
               <img src={image}
               alt={alt}/>
               <strong>{strong}</strong> {body}

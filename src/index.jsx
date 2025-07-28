@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+//added this on top of bootstrap to change entire background 
+document.body.style.backgroundColor = "#971114ff";
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>

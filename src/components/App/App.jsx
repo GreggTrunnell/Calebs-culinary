@@ -36,13 +36,13 @@ function App() {
           <Route
             exact path="/about"
             element={
-              <>
+              <div className="green-text">
                 <h2>About Me</h2>
                 <p>
                   I love cooking! I hope you like the eating my food!
                 </p>
                 <ContactInfo />
-              </>
+              </div>
             }
           />
           <Route
